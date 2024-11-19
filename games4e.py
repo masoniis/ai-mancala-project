@@ -292,7 +292,7 @@ class Game:
 
     def to_move(self, state):
         """Return the player whose move it is in this state."""
-        return state.to_move
+        return state.current_player
 
     def display(self, state):
         """Print or otherwise display the state."""
